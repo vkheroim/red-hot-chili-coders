@@ -1,0 +1,110 @@
+<<<<<<< Updated upstream
+=======
+/* ===========MOBILE STYLES START=============== */
+.yachts-main-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.yachts-section-header {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        max-width: 319px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        color: #FBFBFB;
+}
+.yachts-list {
+    display: flex;
+    column-gap: 32px;
+}
+.yachts-list-item {
+    width: 392px;
+    border: none;
+    background-color: #FBFBFB;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .yachts-list-item-tab {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .yachts-list-item-desk {
+        display: none;
+    }
+}
+
+.yachts-picture-item {
+    margin-bottom: 100px;
+}
+
+.yachts-description {
+    padding: 32px;
+}
+.yachts-description-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.yachts-name {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.21;
+        letter-spacing: -0.045em;
+        text-align: left;
+        text-transform: uppercase;
+        justify-content: center;
+        color: #1B414B;
+
+}
+.yachts-type-class {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: left;
+        align-items: baseline;
+        justify-content: center;
+        color: #040306;
+}
+    .yachts-description-full {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+.yachts-properties {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        column-gap: 18px;
+        color: #040306;
+}
+.yachts-properties-values {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #040306;
+
+}
+/* ===========MOBILE STYLES END=============== */
+/* ===========TABLET STYLES START=============== */
+/* ===========TABLET STYLES END=============== */
+/* ===========DESK STYLES START=============== */
+/* ===========DESK STYLES END=============== */
+/* ===========FULL DESK STYLES START=============== */
+/* ===========FULL DESK STYLES END=============== */
+>>>>>>> Stashed changes
