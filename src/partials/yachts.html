@@ -1,31 +1,58 @@
-
 <section class="yachts-main-section container" id="section-yachts">
   <div>
     <h2 class="yachts-section-header">
       Choose your dream yacht and sail away into the sunset
     </h2>
     <ul class="yachts-list">
+      <!-- =====================FIRST BLOCK======================== -->
       <li class="yachts-list-item">
-        <picture class="yachts-picture-item">
+        <img
+          srcset="
+            ../img/test-img-yaht.jpg           302w,
+            ../img/test-img-yaht11@2x.jpg      604w,
+            ../img/test-img-yaht-t.jpg         304w,
+            ./images/img-tablet-online@2x.jpg  608w,
+            ../img/test-img-yaht-d.jpg         345w,
+            ./images/img-desktop-online@2x.jpg 690w,
+            ../img/test-img-yaht-d.jpg         360w,
+            ./images/img-desktop-online@2x.jpg 720w
+          "
+          sizes="(min-width: 1440px) 360px,(min-width: 1280px) 345px, (min-width: 768px) 304px, (max-width: 767px) 302px"
+          src="../img/test-img-yaht.jpg"
+          alt="Arrow Yacht1111"
+        />
+        <!-- ../img/test-img-yaht.jpg           302w,
+            ../img/test-img-yaht@2x.jpg        604w,
+            ./images/img-tablet-online.jpg     304w,
+            ./images/img-tablet-online@2x.jpg  608w,
+            ./images/img-online-courses.jpg    345w,
+            ./images/img-desktop-online@2x.jpg 690w,
+            ./images/img-online-courses.jpg    360w,
+            ./images/img-desktop-online@2x.jpg 720w -->
+
+        <!-- <picture>
           <source
             media="(min-width: 1440px)"
             srcset="
-              ./images/portfolio/decktop/courses-deck.jpg    1x,
-              ./images/portfolio/decktop/courses-deck@2x.jpg 2x
+              ../img/test-img-yaht-fd1.jpg 1x,
+              ../img/test-img-yaht-fd1.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(min-width: 1280px)"
             srcset="
-              ./images/portfolio/tablet/courses-tab.jpg    1x,
-              ./images/portfolio/tablet/courses-tab@2x.jpg 2x
+              ../img/test-img-yaht-d.jpg 1x,
+              ../img/test-img-yaht-d.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(min-width: 768px)"
-            srcset="../img/test-img-yaht.jpg 1x, ../img/test-img-yaht.jpg 2x"
+            srcset="
+              ../img/test-img-yaht-t.jpg 1x,
+              ../img/test-img-yaht-t.jpg 2x
+            "
             type="image/jpg"
           />
           <source
@@ -39,8 +66,9 @@
             width="100%"
             height="auto"
             loading="lazy"
+            class="yachts-picture-item"
           />
-        </picture>
+        </picture> -->
         <div class="yachts-description">
           <div class="yachts-description-head">
             <p class="yachts-name">Arrow</p>
@@ -64,133 +92,142 @@
           </div>
         </div>
       </li>
+      <!-- ========================SECOND BLOCK========================= -->
       <li class="yachts-list-item yachts-list-item-tab">
-        <picture>
+        <!-- <picture>
           <source
             media="(min-width: 1440px)"
             srcset="
-              ./images/portfolio/decktop/courses-deck.jpg    1x,
-              ./images/portfolio/decktop/courses-deck@2x.jpg 2x
+              ../img/test-img-yaht-fd.jpg 1x,
+              ../img/test-img-yaht-fd.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(min-width: 1280px)"
             srcset="
-              ./images/portfolio/tablet/courses-tab.jpg    1x,
-              ./images/portfolio/tablet/courses-tab@2x.jpg 2x
+              ../img/test-img-yaht-d.jpg 1x,
+              ../img/test-img-yaht-d.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(min-width: 768px)"
             srcset="
-              ./images/portfolio/tablet/courses-tab.jpg    1x,
-              ./images/portfolio/tablet/courses-tab@2x.jpg 2x
+              ../img/test-img-yaht-t.jpg 1x,
+              ../img/test-img-yaht-t.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              ./images/portfolio/mobile/courses-mob.jpg    1x,
-              ./images/portfolio/mobile/courses-mob@2x.jpg 2x
-            "
+            srcset="../img/test-img-yaht.jpg 1x, ../img/test-img-yaht.jpg 2x"
             type="image/jpg"
           />
           <img
-            src="./images/portfolio/decktop/courses-deck.jpg"
+            src="../img/test-img-yaht-t.jpg"
             alt="Arrow-yacht-img"
             width="100%"
             height="auto"
             loading="lazy"
           />
-        </picture>
-        <div>
-          <p class="">BENETTI OASIS 40M BO122</p>
-          <p class="">LUXURY YAHTS</p>
-        </div>
-        <div>
-          <div>
-            <p>LENGTH</p>
-            <p>BUILDER</p>
-            <p>BUILT</p>
-            <p>GUESTS</p>
-            <p>PRICE</p>
+        </picture> -->
+        <div class="yachts-description">
+          <div class="yachts-description-head">
+            <p class="yachts-name">BENETTI OASIS 40...</p>
+            <p class="yachts-type-class">LUXURY YAHTS</p>
           </div>
-          <div>
-            <p>41m (133ft)</p>
-            <p>Benetti</p>
-            <p>2025</p>
-            <p>10 in 5 cabins</p>
-            <p>€23,210,000</p>
+          <div class="yachts-description-full">
+            <div class="yachts-properties">
+              <p class="">LENGTH</p>
+              <p class="">BUILDER</p>
+              <p class="">BUILT</p>
+              <p class="">GUESTS</p>
+              <p class="">PRICE</p>
+            </div>
+            <div class="yachts-properties-values">
+              <p class="">41m (133ft)</p>
+              <p class="">Benetti</p>
+              <p class="">2025</p>
+              <p class="">10 in 5 cabins</p>
+              <p class="">€23,210,000</p>
+            </div>
           </div>
         </div>
       </li>
+      <!-- ========================THRIRD BLOCK=========================== -->
       <li class="yachts-list-item yachts-list-item-desk">
-        <picture>
+        <!-- <picture>
           <source
             media="(min-width: 1440px)"
             srcset="
-              ./images/portfolio/decktop/courses-deck.jpg    1x,
-              ./images/portfolio/decktop/courses-deck@2x.jpg 2x
+              ../img/test-img-yaht-fd.jpg 1x,
+              ../img/test-img-yaht-fd.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(min-width: 1280px)"
             srcset="
-              ./images/portfolio/tablet/courses-tab.jpg    1x,
-              ./images/portfolio/tablet/courses-tab@2x.jpg 2x
+              ../img/test-img-yaht-d.jpg 1x,
+              ../img/test-img-yaht-d.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(min-width: 768px)"
             srcset="
-              ./images/portfolio/tablet/courses-tab.jpg    1x,
-              ./images/portfolio/tablet/courses-tab@2x.jpg 2x
+              ../img/test-img-yaht-d.jpg 1x,
+              ../img/test-img-yaht-d.jpg 2x
             "
             type="image/jpg"
           />
           <source
             media="(max-width: 767px)"
             srcset="
-              ./images/portfolio/mobile/courses-mob.jpg    1x,
-              ./images/portfolio/mobile/courses-mob@2x.jpg 2x
+              ../img/test-img-yaht-d.jpg 1x,
+              ../img/test-img-yaht-d.jpg 2x
             "
             type="image/jpg"
           />
           <img
-            src="./images/portfolio/decktop/courses-deck.jpg"
+            src="../img/test-img-yaht-t.jpg"
             alt="Arrow-yacht-img"
             width="100%"
             height="auto"
             loading="lazy"
           />
-        </picture>
-        <div>
-          <p class="">BELLE ANNA</p>
-          <p class="">LUXURY YAHTS</p>
-        </div>
-        <div>
-          <div>
-            <p>LENGTH</p>
-            <p>BUILDER</p>
-            <p>BUILT</p>
-            <p>GUESTS</p>
-            <p>PRICE</p>
+        </picture> -->
+        <div class="yachts-description">
+          <div class="yachts-description-head">
+            <p class="yachts-name">BELLE ANNA</p>
+            <p class="yachts-type-class">LUXURY YAHTS</p>
           </div>
-          <div>
-            <p>50m(155ft)</p>
-            <p>ISA</p>
-            <p>2012</p>
-            <p>12 in 6 cabins</p>
-            <p>€21,000,000</p>
+          <div class="yachts-description-full">
+            <div class="yachts-properties">
+              <p class="">LENGTH</p>
+              <p class="">BUILDER</p>
+              <p class="">BUILT</p>
+              <p class="">GUESTS</p>
+              <p class="">PRICE</p>
+            </div>
+            <div class="yachts-properties-values">
+              <p class="">50m(155ft)</p>
+              <p class="">ISA</p>
+              <p class="">2012</p>
+              <p class="">12 in 6 cabins</p>
+              <p class="">€21,000,000</p>
+            </div>
           </div>
         </div>
       </li>
     </ul>
-    <button class="button-yachts-rental" type="button">Yacht rental</button>
+    <button
+      id="anchor-yachts"
+      class="yachts-button-yachts-rental"
+      type="button"
+    >
+      Yacht rental
+    </button>
   </div>
 </section>
