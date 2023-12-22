@@ -219,7 +219,7 @@
   .logo {
     margin-right: 215px;
   }
-  .page-nav {
+  .modal-page-nav {
     display: flex;
     flex-direction: column;
     margin-top: 201px;
@@ -228,14 +228,16 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .nav-header-button {
+  .modal-nav-header-button {
     width: 91px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--active-color);
+    border-radius: 8px;
   }
-  .social-link-list {
+  .modal-social-link-list {
     display: flex;
     gap: 8px;
     justify-content: center;
@@ -246,7 +248,13 @@
     margin-top: 361px;
     margin-bottom: 40px;
   }
-  .social-page-icon {
+  .modal-social-link {
     fill: var(--primary-white-color);
+  }
+  .btn-about {
+  }
+  .modal-nav-header-button {
+    width: 91px;
+    height: 40px;
   }
 }
