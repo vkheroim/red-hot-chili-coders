@@ -1,4 +1,12 @@
 .hero {
+  background-image: linear-gradient(
+      rgba(17, 19, 31, 1),
+      rgba(17, 19, 31, 0.39),
+      rgba(17, 19, 31, 0)
+    ),
+    url('../img/hero-img/bg-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 198px 0px 243px 0px;
   display: flex;
 }
@@ -37,3 +45,22 @@
   align-items: center;
   margin: 0 auto;
 }
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(17, 19, 31, 1),
+        rgba(17, 19, 31, 0.39),
+        rgba(17, 19, 31, 0)
+      ),
+      url('../img/hero-img/bg-mobile@2x.jpg');
+  }
+}
+
+/**-----------------TABLET HERO-------------------*/
+
+/**-----------------DESKTOP HERO-------------------*/
+
+/**-----------------DESKTOP FULL HERO-------------------*/
