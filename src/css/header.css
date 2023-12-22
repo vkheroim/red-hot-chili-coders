@@ -6,6 +6,9 @@
   background: #fbfbfb;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
 }
 .page-header-container {
   display: flex;
@@ -20,7 +23,6 @@
 }
 .nav-header-button {
   color: #fbfbfb;
-
   text-align: center;
   font-family: Inter, sans-serif;
   justify-content: center;
@@ -41,8 +43,6 @@
   font-size: 14px;
   font-weight: 500;
   letter-spacing: -0.42px;
-  display: inline-block;
-  margin-left: 20px;
 }
 @media screen and (max-width: 767px) {
   .icon-burger-btn {
@@ -62,33 +62,33 @@
 }
 @media screen and (min-width: 768px) {
   .page-header-container {
-    justify-content: space-between;
-    max-width: 704px;
     width: 704px;
+    height: 48px;
+    margin-left: 28px;
+    margin-right: 28px;
   }
   .page-header {
     max-width: 704px;
+    height: 48px;
+  }
+  .logo {
+    width: 88px;
   }
   .social-link-list {
     display: flex;
     gap: 8px;
   }
-  .social-link-list {
-    display: flex;
-    margin-right: 28px;
-  }
-  .page-nav {
-    display: flex;
-    gap: 4px;
-    margin-left: 109px;
-    justify-content: center;
-    margin-right: 96px;
-    align-items: center;
-  }
+
   .nav-header-button {
     display: flex;
     align-items: center;
     width: 91px;
     height: 40px;
+  }
+  .page-nav {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
