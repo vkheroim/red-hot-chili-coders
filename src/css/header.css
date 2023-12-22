@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   fill: var(--active-color);
-  transition: fill 250ms linear;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus .social-page-icon {
@@ -50,7 +50,7 @@
   text-transform: uppercase;
   border-radius: 8px;
   background: rgba(27, 65, 75, 0.5);
-  transition: background-color 250ms linear;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-header-button:hover,
 .nav-header-button:focus {
@@ -132,5 +132,30 @@
   .page-nav {
     display: flex;
     gap: 4px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .page-header {
+    width: 1080px;
+    max-width: 100%;
+  }
+  .page-nav {
+    margin-left: 281px;
+    margin-right: 296px;
+  }
+  .page-header-container {
+    width: 100%;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 1080px;
+    margin: 0;
+  }
+  .logo {
+    margin: 0;
+    width: 74px;
+  }
+  .social-link-list {
+    margin: 0;
   }
 }
