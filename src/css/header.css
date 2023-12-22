@@ -202,7 +202,6 @@
     opacity: 0;
     visibility: visible;
     pointer-events: auto;
-    transition: transform 250ms linear;
   }
 
   .modal {
