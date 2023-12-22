@@ -13,6 +13,14 @@
 .social-link {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  fill: var(--active-color);
+  transition: fill 250ms linear;
+}
+.social-link:hover,
+.social-link:focus .social-page-icon {
+  fill: var(--secondary-black-color);
 }
 .page-header-container {
   display: flex;
@@ -42,12 +50,20 @@
   text-transform: uppercase;
   border-radius: 8px;
   background: rgba(27, 65, 75, 0.5);
+  transition: background-color 250ms linear;
+}
+.nav-header-button:hover,
+.nav-header-button:focus {
+  background-color: var(--active-color);
 }
 .social-link-list {
   display: none;
 }
+.social-page-icon {
+  fill: var(--active-colorz);
+}
 .logo {
-  color: #1b414b;
+  color: var(--active-colorz);
   font-family: Inter;
   font-size: 14px;
   font-weight: 500;
