@@ -193,9 +193,12 @@
     visibility: visible;
     pointer-events: auto;
     height: 812px;
+    transform: translateX(0%);
+    transition: transform 250ms linear;
   }
 
   .backdrop.is-hidden {
+    transform: translateX(100%);
     opacity: 0;
     visibility: visible;
     pointer-events: auto;
