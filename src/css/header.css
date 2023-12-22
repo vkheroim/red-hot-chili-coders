@@ -28,8 +28,6 @@
   height: 42px;
   width: 335px;
   justify-content: center;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 .icon-burger-btn {
   display: none;
@@ -157,5 +155,98 @@
   }
   .social-link-list {
     margin: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .page-header {
+    width: 1240px;
+  }
+  .page-header-container {
+    min-width: 1240px;
+  }
+  .page-nav {
+    margin-right: 362px;
+    margin-left: 375px;
+  }
+}
+/* =====================MENU====================== */
+@media screen and (max-width: 767px) {
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-black-color);
+    z-index: 999999999;
+  }
+
+  .modal {
+    width: 100%;
+    max-width: 375px;
+    max-height: 812px;
+    height: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .mobile-header-container {
+    width: 335px;
+    height: 42px;
+    background-color: #fff;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #fbfbfb;
+    background: #fbfbfb;
+  }
+  .modal-close-btn {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+  }
+  .modal-close-icon {
+    fill: #055545;
+  }
+  .logo {
+    margin-right: 215px;
+  }
+  .page-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 201px;
+    gap: 4px;
+    width: 91px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-header-button {
+    width: 91px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-link-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 361px;
+    margin-bottom: 40px;
+  }
+  .social-page-icon {
+    fill: var(--primary-white-color);
   }
 }
