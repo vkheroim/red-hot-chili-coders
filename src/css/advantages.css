@@ -11,6 +11,9 @@ ol {
   background: #1b414b;
   margin-bottom: 20px;
 }
+.advantages-description{
+  position: relative;
+}
 .advantages-photo {
   display: flex;
   justify-content: center;
@@ -27,6 +30,8 @@ ol {
 
 .under-text-advantages {
   width: 292px;
+  justify-content: flex-start;
+
 }
 
 @media screen and (max-width: 767px) {
@@ -64,7 +69,7 @@ ol {
   counter-increment: my-counter;
   margin-bottom: 18px;
   margin-top: 18px;
-  position: relative;
+ 
 }
 .advantages-list-item::before {
   content: counter(my-counter, decimal-leading-zero);
@@ -72,17 +77,20 @@ ol {
   text-align: left;
   font-weight: 500;
   font-size: 28px;
+  bottom: 18px;
 }
 
-.advantages-list-item::after {
-  width: 100%;
+.advantages-description::before {
+  /* width: 100%; */
+  width: 295px;
   height: 2px;
   content: '';
   position: absolute;
-  /* left: 0;
-  top: 100%;
-  margin: 18px 0; */
+  left: 0;
+  /* bottom: 18px; */
+  /* top: -18px; */
   border-radius: 18px;
+  gap: 18px;
   background: rgba(251, 251, 251, 0.1);
 }
 
@@ -90,7 +98,7 @@ ol {
   .advantages-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 44px;
+    gap: 44px 32px;
     flex-direction: row;
     /* row-gap: 44px; */
   }
@@ -106,6 +114,7 @@ ol {
 
   .under-text-advantages {
     display: flex;
+    padding-right: 25px;
   }
 
   .advantages-container {
