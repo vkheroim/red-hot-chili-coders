@@ -1,0 +1,75 @@
+.rent-section {
+  background-image: none;
+  background-position: bottom 100px left 0;
+  background-repeat: no-repeat;
+}
+
+.img-rent-product {
+  display: block;
+  width: 335px;
+  height: 412px;
+}
+.section-style {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.rent-title {
+  color: #fbfbfb;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.56px;
+}
+.user-input {
+  width: 100%;
+  display: block;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+}
+.textarea-comment {
+  width: 100%;
+  margin-bottom: 40px;
+  height: 108px;
+}
+.form-rent-btn {
+  display: inline-flex;
+  padding: 14px 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #1b414b;
+}
+@media screen and (min-width: 768px) {
+  .rent-section {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .img-title-container {
+    background: url(../img/rent-img/rent-tablet.jpg),
+      lightgray -39.719px -7.855px, no-repeat;
+    margin-top: 100px;
+  }
+
+  .section-style {
+    flex-direction: column-reverse;
+    row-gap: 100px;
+  }
+  .rent-title {
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.96px;
+  }
+  .user-input {
+    width: 473px;
+  }
+}
