@@ -1,0 +1,43 @@
+.rent-tittle{
+    color: #FBFBFB;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: -0.96px;
+}
+.img-tittle-container{
+    margin-right: 50px;
+}
+.user-input{
+    width: 100%;
+display: block
+padding: 18px 388px 18px 18px;
+justify-content: center;
+align-items:center;
+gap:18px;
+border-radius: 12px;
+border: 1px solid rgba(251, 251, 251, 0.20);
+}
+.form-rent-btn{
+    display: flex;
+    padding: 18px 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FBFBFB;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%;
+letter-spacing: -0.36px;
+}
+.textarea-comment{
+    width: 100%;
+    height: 80px;
+}
+.rent-section{
+    background: #0E1823;
+}
