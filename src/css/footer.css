@@ -102,7 +102,6 @@
     justify-content: space-between;
   }
   .footer-logo {
-    margin-right: 106px;
     font-size: 20px;
     letter-spacing: -0.03em;
   }
@@ -152,10 +151,6 @@
     margin-bottom: 96px;
   }
 
-  .footer-logo {
-    margin-right: 326px;
-  }
-
   .text-footer {
     max-width: 693px;
     margin-right: auto;
@@ -169,23 +164,21 @@
 /*======================================*/
 /*======================================*/
 /*======================================*/
-  /*========== DESKTOP 1440px ============*/
-  @media screen and (min-width: 1440px) {
-    .container-footer {
-      max-width: 1390px;
-      padding-left: 75px;
-      padding-right: 75px;
-    }
-    .menu-footer {
-      margin-right: 388px;
-    }
-    .footer-logo {
-      margin-right: 409px;
-    }
-    .text-footer {
-      width: 699px;
-      margin-right: auto;
-      margin-left: auto;
-    }
+/*========== DESKTOP 1440px ============*/
+@media screen and (min-width: 1440px) {
+  .container-footer {
+    max-width: 1390px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
-  /*========== /DESKTOP 1440px ===========*/
+  .menu-footer {
+    margin-right: 388px;
+  }
+
+  .text-footer {
+    width: 699px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+/*========== /DESKTOP 1440px ===========*/
