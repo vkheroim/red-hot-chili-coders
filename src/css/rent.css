@@ -28,3 +28,19 @@ align-items: center;
 border-radius: 12px;
 border: 1px solid rgba(251, 251, 251, 0.20);
 }
+.textarea-comment{
+    width: 100%;
+    margin-bottom: 40px;
+    height: 108px;
+
+}
+.form-rent-btn{
+    display: inline-flex;
+padding: 14px 44px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+background: #1B414B;
+
+}
