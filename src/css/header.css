@@ -161,7 +161,7 @@
   }
 }
 /* =====================MENU====================== */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .backdrop {
     position: fixed;
     top: 0;
@@ -271,4 +271,4 @@
   .logo {
     margin-right: 0;
   }
-}
+} */
