@@ -13,14 +13,16 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 a {
-  color: currentColor;
+  color: inherit;
   text-decoration: none;
 }
 
