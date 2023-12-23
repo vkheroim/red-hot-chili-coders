@@ -8,6 +8,7 @@
 .header-hero-bg {
   background-image: url('../img/hero-img/bg-mobile.jpg');
   background-size: 375px;
+  margin-bottom: 20px;
 }
 
 .hero-title {
