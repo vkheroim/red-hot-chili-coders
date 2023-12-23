@@ -1,6 +1,53 @@
 .rent-section {
-  padding-top: 40px;
+  padding-top: 80px;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  gap: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rent-image {
+  border-radius: 24px;
+  display: block;
+  width: 335px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .rent-section {
+    padding-top: 150px;
+    padding-bottom: 75px;
+    padding-right: 32px;
+    padding-left: 32px;
+    gap: 100px;
+  }
+
+  .rent-image {
+    width: 768px;
+  }
+
+  .rent-title {
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+  }
+
+  .rent-form {
+    max-width: 472px;
+  }
+
+  .rent-form-textarea {
+    margin-bottom: 50px;
+  }
+  .rent-button {
+    font-size: 18px;
+    line-height: 110%;
+  }
 }
 
 .rent-title {
@@ -54,7 +101,7 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 120%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .rent-button {
@@ -66,8 +113,8 @@
   cursor: pointer;
   border-style: none;
   color: #fbfbfb;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 110%;
+  line-height: 130%;
   letter-spacing: -0.02em;
 }
