@@ -72,7 +72,7 @@
 }
 
 .text-footer {
-  width: 279px;
+  max-width: 279px;
   text-align: center;
   font-size: 18px;
   line-height: 1;
@@ -120,7 +120,7 @@
   }
 
   .text-footer {
-    width: 640px;
+    max-width: 640px;
     font-size: 32px;
   }
 
@@ -157,7 +157,7 @@
   }
 
   .text-footer {
-    width: 693px;
+    max-width: 693px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -169,185 +169,6 @@
 /*======================================*/
 /*======================================*/
 /*======================================*/
-/*========== DESKTOP 1440px ============*/
-@media screen and (min-width: 1440px) {
-  .text-footer-bottom {
-    font-size: 14px;
-    line-height: 1.18;
-  }
-
-  .container-footer {
-    max-width: 355px;
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    border-radius: 24px 24px 0px 0px;
-    color: #fbfbfb;
-    background-color: #1b414b;
-  }
-  .footer-logo {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: -0.03em;
-  }
-  .part-footer {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
-  }
-  .menu-footer {
-    display: flex;
-    gap: 4px;
-  }
-  .menu-footer-item {
-    width: 66px;
-    height: 40px;
-    border-radius: 8px;
-    background: #fbfbfb4d;
-  }
-  .link-menu-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    font-family: Inter;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.3;
-    text-transform: uppercase;
-  }
-  .menu-footer-item:hover,
-  .menu-footer-item:focus {
-    background: #fbfbfb;
-    color: #1b414b;
-  }
-  .icon-footer {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 40px;
-  }
-  .link-icon {
-    fill: #fbfbfb;
-  }
-  .link-icon:hover,
-  .link-icon:focus {
-    fill: #fbfbfbcc;
-  }
-  .text-footer {
-    width: 279px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    margin-bottom: 82px;
-  }
-  .text-footer-bottom {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    color: #fbfbfb66;
-    letter-spacing: 0.03em;
-  }
-  /*============= TABLET =================*/
-  @media screen and (min-width: 768px) {
-    .container-footer {
-      width: 736px;
-      padding-top: 50px;
-    }
-    .menu-footer-item {
-      width: 91px;
-    }
-    .part-footer-nav {
-      display: flex;
-      justify-content: space-between;
-    }
-    .footer-logo {
-      margin-right: 106px;
-      font-size: 20px;
-      letter-spacing: -0.03em;
-    }
-    .icon-footer {
-      margin-bottom: 0;
-    }
-    .part-footer {
-      margin-bottom: 0;
-    }
-    .part-footer-nav {
-      margin-bottom: 96px;
-    }
-    .text-footer {
-      width: 640px;
-      font-size: 32px;
-    }
-    .text-footer-bottom {
-      font-size: 14px;
-      line-height: 1.18;
-    }
-  }
-  /*============= /TABLET ================*/
-  /*======================================*/
-  /*======================================*/
-  /*======================================*/
-  /*======================================*/
-  /*========== DESKTOP 1280px ============*/
-  @media screen and (min-width: 1280px) {
-    .container-footer {
-      max-width: 1230px;
-      padding-left: 48px;
-      padding-right: 48px;
-    }
-
-    .menu-footer {
-      margin-right: 311px;
-    }
-    .part-footer {
-      margin-right: 0;
-      margin-bottom: 96px;
-    }
-    .footer-logo {
-      margin-right: 326px;
-    }
-    .text-footer {
-      width: 693px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    .container-footer {
-      width: 1230px;
-      padding-left: 48px;
-      padding-right: 48px;
-      margin: 0 auto;
-    }
-
-    .menu-footer {
-      margin-right: 311px;
-    }
-    .part-footer {
-      margin-right: 0;
-      margin-bottom: 96px;
-    }
-    .footer-logo {
-      margin-right: 326px;
-    }
-    .text-footer {
-      width: 693px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-  }
-
-  /*========== /DESKTOP 1280px ===========*/
-  /*======================================*/
-  /*======================================*/
-  /*======================================*/
-  /*======================================*/
-  /*======================================*/
   /*========== DESKTOP 1440px ============*/
   @media screen and (min-width: 1440px) {
     .container-footer {
@@ -368,27 +189,3 @@
     }
   }
   /*========== /DESKTOP 1440px ===========*/
-
-  .container-footer {
-    max-width: 1390px;
-    padding-left: 75px;
-    padding-right: 75px;
-  }
-
-  .menu-footer {
-    margin-right: 388px;
-  }
-  .footer-logo {
-    margin-right: 409px;
-  }
-
-  .text-footer {
-    width: 699px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-/*========== /DESKTOP 1440px ===========*/
-
-/*========== /DESKTOP 1440px ===========*/
