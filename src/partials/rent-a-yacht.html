@@ -1,32 +1,25 @@
-<div class="rent-section">
+<section class="rent-section">
 
-    <h2 class="rent-title">Rent a yacht now</h2>
 
-    <form class="rent-form">
-        <div class="rent-form-wrapper">
-            <label class="rent-form-label" for="user-name">Full Name
-            </label>
-            <input class="cta-form-input" type="text" name="user-name" id="user-name" required
-                pattern="[a-zA-Zа-яА-ЯІіЇїєЄҐґйЙ']+" title="Nataliia">
-        </div>
 
-        <div class="rent-form-wrapper">
-            <label class="rent-form-label" for="user-email">Email</label>
-            <input class="cta-form-input" type="email" name="user_email" id="user-email" required>
-        </div>
+    <div class="rent-form-wrapper">
 
-        <div class="rent-form-wrapper">
-            <label class="rent-form-label" for="user-telephone">Phone number</label>
-            <input class="cta-form-input" type="tel" name="user_telephone" id="user-telephone" required
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
-        </div>
+        <h2 class="rent-title">Rent a yacht now</h2>
 
-        <div class="rent-form-wrapper-txt">
-            <label class="rent-form-label" for="user-comment">Comment</label>
-            <textarea class="cta-form-textarea" id="user-comment" placeholder="Text input"
-                name="user-comment"></textarea>
-        </div>
-        <button class="rent-button" type="submit">Send</button>
-    </form>
+        <form class="rent-form">
 
-</div>
+            <input class="rent-form-input" type="text" name="user-name" id="user-name" required
+                pattern="[a-zA-Zа-яА-ЯІіЇїєЄҐґйЙ']+" title="Nataliia Yareshko" placeholder="Full Name">
+
+            <input class="rent-form-input" type="email" name="user_email" id="user-email" required placeholder="Email">
+
+            <input class="rent-form-input" type="tel" name="user_telephone" id="user-telephone" required
+                placeholder="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+
+            <textarea class="rent-form-textarea" id="user-comment" name="user-comment" placeholder="Comment"></textarea>
+
+            <button class="rent-button" type="submit">Send</button>
+        </form>
+    </div>
+
+</section>

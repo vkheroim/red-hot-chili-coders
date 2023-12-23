@@ -1,75 +1,73 @@
 .rent-section {
-  background-image: none;
-  background-position: bottom 100px left 0;
-  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.img-rent-product {
-  display: block;
-  width: 335px;
-  height: 412px;
-}
-.section-style {
-  display: flex;
-  flex-direction: column-reverse;
-}
 .rent-title {
   color: #fbfbfb;
-  font-family: Inter;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: -0.56px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
-.user-input {
-  width: 100%;
+
+.rent-form {
+  max-width: 335px;
+}
+
+.rent-form-input {
   display: block;
-  padding: 14px 18px;
-  margin-bottom: 18px;
-  justify-content: center;
-  align-items: center;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  padding-left: 18px;
+  width: 100%;
+  height: 42px;
+  background-color: transparent;
   border-radius: 12px;
   border: 1px solid rgba(251, 251, 251, 0.2);
+  outline: transparent;
+  margin-bottom: 18px;
 }
-.textarea-comment {
+
+::placeholder {
+  color: rgba(251, 251, 251, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.rent-form-textarea {
+  resize: none;
   width: 100%;
-  margin-bottom: 40px;
   height: 108px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  padding-left: 18px;
+  padding-top: 14px;
+  color: rgba(46, 47, 66, 0.4);
+  line-height: 1.17;
+  background-color: transparent;
+  color: rgba(251, 251, 251, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 50px;
 }
-.form-rent-btn {
-  display: inline-flex;
-  padding: 14px 44px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+
+.rent-button {
   border-radius: 15px;
   background: #1b414b;
-}
-@media screen and (min-width: 768px) {
-  .rent-section {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-  .img-title-container {
-    background: url(../img/rent-img/rent-tablet.jpg),
-      lightgray -39.719px -7.855px, no-repeat;
-    margin-top: 100px;
-  }
-
-  .section-style {
-    flex-direction: column-reverse;
-    row-gap: 100px;
-  }
-  .rent-title {
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 48px;
-    letter-spacing: -0.96px;
-  }
-  .user-input {
-    width: 473px;
-  }
+  padding: 18px 75px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-style: none;
+  color: #fbfbfb;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.02em;
 }
