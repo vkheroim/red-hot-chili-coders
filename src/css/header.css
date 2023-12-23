@@ -113,7 +113,6 @@
     height: 48px;
   }
   .logo {
-    margin-right: 109px;
     width: 88px;
   }
   .social-link-list {
@@ -151,11 +150,6 @@
     padding: 0 30px;
   }
 
-  .page-nav {
-    margin-left: 281px;
-    margin-right: 296px;
-  }
-
   .logo {
     margin: 0;
     width: 74px;
@@ -171,11 +165,6 @@
 
   .page-header-container {
     padding: 0 30px;
-  }
-
-  .page-nav {
-    margin-right: 362px;
-    margin-left: 375px;
   }
 }
 /* =====================MENU====================== */
