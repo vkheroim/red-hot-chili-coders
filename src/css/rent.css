@@ -1,0 +1,30 @@
+.rent-section{
+    background-image: none;
+    background-position: bottom 100px left 0;
+    background-repeat: no-repeat;
+
+}
+.img-rent-product{
+    display: block;
+    width: 335px;
+height: 412px;
+}
+.rent-title{
+    color: #FBFBFB;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -0.56px;
+}
+.user-input{
+    width: 100%;
+  display: block;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+  justify-content: center;
+align-items: center;
+border-radius: 12px;
+border: 1px solid rgba(251, 251, 251, 0.20);
+}
