@@ -1,0 +1,129 @@
+.hero {
+  background-image: url('../img/hero-img/bg-test.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 198px 0px 243px 0px;
+  display: flex;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--primary-white-color);
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  color: rgba(251, 251, 251, 0.7);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.17;
+  margin-bottom: 38px;
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-link {
+  color: var(--primary-white-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  border-radius: 15px;
+  background-color: var(--active-color);
+  width: 141px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .hero {
+  }
+}
+
+/**-----------------TABLET HERO-------------------*/
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0px 32px 0px 32px;
+  }
+  .hero {
+    padding-top: 204px;
+    padding-bottom: 215px;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    max-width: 1001px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 48px;
+    max-width: 598px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-link {
+    font-size: 18px;
+    line-height: 1.1;
+    width: 179px;
+    height: 52px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .hero {
+  }
+}
+
+/**-----------------DESKTOP HERO-------------------*/
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 235px;
+    padding-bottom: 180px;
+  }
+  .hero-title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .hero {
+  }
+}
+
+/**-----------------DESKTOP FULL HERO-------------------*/
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    padding-top: 235px;
+    padding-bottom: 180px;
+  }
+  .hero-title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  .hero {
+  }
+}
