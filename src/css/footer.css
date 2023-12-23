@@ -8,10 +8,9 @@
   margin-right: auto;
   border-radius: 24px 24px 0px 0px;
   color: #fbfbfb;
-  background-color: #1B414B;
-
+  background-color: #1b414b;
 }
-
+.footer-logo {
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -50,34 +49,27 @@
   text-transform: uppercase;
 }
 
-
 .menu-footer-item:hover,
 .menu-footer-item:focus {
   background: #fbfbfb;
-  color: #1B414B;
+  color: #1b414b;
 }
-
 
 .icon-footer {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 40px;
-
-
-
 }
 
 .link-icon {
   fill: #fbfbfb;
-
 }
 
 .link-icon:hover,
 .link-icon:focus {
-  fill: #FBFBFBCC;
+  fill: #fbfbfbcc;
 }
-
 
 .text-footer {
   width: 279px;
@@ -101,7 +93,6 @@
   .container-footer {
     max-width: 736px;
     padding-top: 50px;
-
   }
   .menu-footer-item {
     width: 91px;
@@ -128,17 +119,14 @@
     margin-bottom: 96px;
   }
 
-
   .text-footer {
     width: 640px;
     font-size: 32px;
   }
 
-
   .text-footer-bottom {
     font-size: 14px;
     line-height: 1.18;
-
   }
 }
 
@@ -173,7 +161,6 @@
     margin-right: auto;
     margin-left: auto;
   }
-
 }
 
 /*========== /DESKTOP 1280px ===========*/
@@ -184,7 +171,6 @@
 /*======================================*/
 /*========== DESKTOP 1440px ============*/
 @media screen and (min-width: 1440px) {
-
   .text-footer-bottom {
     font-size: 14px;
     line-height: 1.18;
@@ -403,8 +389,6 @@
   }
 }
 
-
 /*========== /DESKTOP 1440px ===========*/
 
 /*========== /DESKTOP 1440px ===========*/
-
