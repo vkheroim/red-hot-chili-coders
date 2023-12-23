@@ -93,6 +93,7 @@
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.02em;
+  max-width: 303px;
 }
 
 @media screen and (min-width: 768px) {
@@ -125,6 +126,10 @@
     line-height: 130%;
     max-width: 571px;
     margin-bottom: 75px;
+  }
+
+  .reviews-cust-text {
+    max-width: none;
   }
 }
 
