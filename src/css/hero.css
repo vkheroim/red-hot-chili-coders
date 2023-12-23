@@ -1,14 +1,15 @@
 .hero {
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 198px 0px 243px 0px;
+  padding-top: 198px;
+  padding-bottom: 243px;
   display: flex;
 }
 
-body {
+.header-hero-bg {
   background-image: url(../img/hero-img/bg-mobile.jpg);
   background-size: 375px;
   background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 20px;
 }
 
 .hero-title {
@@ -19,8 +20,8 @@ body {
   letter-spacing: -0.02em;
   color: var(--primary-white-color);
   margin-bottom: 24px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-text {
@@ -62,29 +63,25 @@ body {
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-  body {
+  .header-hero-bg {
     background-image: url(../img/hero-img/bg-mobile@2x.jpg);
   }
 }
 
 /**-----------------TABLET HERO-------------------*/
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 0px 32px 0px 32px;
-  }
   .hero {
-    padding-top: 204px;
-    padding-bottom: 215px;
+    padding: 200px 32px 215px 32px;
   }
 
-  body {
+  .header-hero-bg {
     background-image: url(../img/hero-img/bg-tablet.jpg);
     background-size: 768px;
+    padding-top: 32px;
   }
 
   .hero-title {
     font-size: 70px;
-    max-width: 1001px;
   }
 
   .hero-text {
@@ -107,7 +104,7 @@ body {
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  body {
+  .header-hero-bg {
     background-image: url(../img/hero-img/bg-tablet@2x.jpg);
   }
 }
@@ -120,20 +117,21 @@ body {
     padding-bottom: 180px;
   }
 
-  body {
+  .header-hero-bg {
     background-image: url(../img/hero-img/bg-pc.jpg);
     background-size: 1280px;
   }
 
   .hero-title {
     font-size: 80px;
+    max-width: 1001px;
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-  body {
+  .header-hero-bg {
     background-image: url(../img/hero-img/bg-pc@2x.jpg);
   }
 }
@@ -146,7 +144,7 @@ body {
     padding-bottom: 180px;
   }
 
-  body {
+  .header-hero-bg {
     background-image: url(../img/hero-img/bg-pc2.jpg);
     background-size: 1440px;
   }
@@ -159,7 +157,7 @@ body {
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
   screen and (min-resolution: 2dppx) and (min-width: 1440px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
-  body {
+  .header-hero-bg {
     background-image: url(../img/hero-img/bg-pc2@2x.jpg);
   }
 }
