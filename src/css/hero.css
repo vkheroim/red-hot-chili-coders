@@ -5,9 +5,10 @@
   display: flex;
 }
 
-.header-hero-bg {
+body {
   background-image: url('../img/hero-img/bg-mobile.jpg');
   background-size: 375px;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
