@@ -97,8 +97,21 @@
   .icon-burger {
     stroke: #1b414b;
   }
+  .mob-menu-open {
+    background-color: transparent;
+    border: none;
+  }
+}
+@media screen and (min-width: 375px) {
+  .mob-menu-open {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
 }
 @media screen and (min-width: 768px) {
+  .mob-menu-open {
+    display: none;
+  }
   .backdrop {
     display: none;
   }
