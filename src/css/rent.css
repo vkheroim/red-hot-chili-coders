@@ -11,43 +11,23 @@
   margin-right: auto;
 }
 
-.rent-image {
-  border-radius: 24px;
-  display: block;
-  width: 335px;
-  height: auto;
+.rent-img-container {
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
-  .rent-section {
-    padding-top: 150px;
-    padding-bottom: 75px;
-    padding-right: 32px;
-    padding-left: 32px;
-    gap: 100px;
-  }
+.rent-img-container img {
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .rent-image {
-    width: 768px;
-  }
-
-  .rent-title {
-    font-size: 48px;
-    letter-spacing: -0.02em;
-    margin-bottom: 50px;
-  }
-
-  .rent-form {
-    max-width: 472px;
-  }
-
-  .rent-form-textarea {
-    margin-bottom: 50px;
-  }
-  .rent-button {
-    font-size: 18px;
-    line-height: 110%;
-  }
+.rent-image {
+  display: block;
+  width: 100%;
+  flex-shrink: 0;
+  height: auto;
 }
 
 .rent-title {
@@ -107,7 +87,7 @@
 .rent-button {
   border-radius: 15px;
   background: #1b414b;
-  padding: 18px 75px;
+  padding: 14px 44px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -117,4 +97,63 @@
   font-weight: 500;
   line-height: 130%;
   letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .rent-section {
+    padding-top: 150px;
+    padding-bottom: 75px;
+    padding-right: 32px;
+    padding-left: 32px;
+    gap: 100px;
+  }
+
+  .rent-image {
+    width: 704px;
+  }
+
+  .rent-title {
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+  }
+
+  .rent-form {
+    max-width: 472px;
+  }
+
+  .rent-form-textarea {
+    margin-bottom: 50px;
+  }
+  .rent-button {
+    font-size: 18px;
+    padding: 18px 75px;
+    line-height: 110%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .rent-section {
+    padding-bottom: 76px;
+    padding-right: 50px;
+    padding-left: 50px;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .rent-title {
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+  }
+
+  .rent-form-textarea {
+    margin-bottom: 50px;
+  }
+  .rent-button {
+    font-size: 18px;
+    padding: 18px 75px;
+    line-height: 110%;
+  }
 }
