@@ -99,6 +99,12 @@
   letter-spacing: -0.02em;
 }
 
+.rent-button:hover,
+.rent-button:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+
 @media screen and (min-width: 768px) {
   .rent-section {
     padding-top: 150px;
