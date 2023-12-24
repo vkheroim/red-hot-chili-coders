@@ -1,47 +1,73 @@
-<section class="rent-section">
+<section class="rent-section" id="anchor-rent">
+  <div class="rent-img-container">
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="../img/rent-pc-wide.jpg 1x, ../img/rent-pc-wide@2x.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="../img/rent-pc.jpg 1x, ../img/rent-pc@2x.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="../img/rent-tablet.jpg 1x, ../img/rent-tablet@2x.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="../img/rent-mobile.jpg 1x, ../img/rent-mobile@2x.jpg 2x"
+        type="img/jpg"
+      />
+      <img src="../img/rent-mobile.jpg" alt="yacht" loading="lazy" />
+    </picture>
+  </div>
 
-    <div class="rent-img-container">
+  <div class="rent-form-wrapper">
+    <h2 class="rent-title">Rent a yacht now</h2>
 
-        <picture>
-            <source media="(min-width: 1280px)" srcset="
-              ../img/rent-pc-wide.jpg 1x,
-              ../img/rent-pc-wide@2x.jpg 2x
-              " type="image/jpg">
-            <source media="(min-width: 1280px)" srcset="
-              ../img/rent-pc.jpg 1x,
-              ../img/rent-pc@2x.jpg 2x
-              " type="image/jpg">
-            <source media="(min-width: 768px)" srcset="
-              ../img/rent-tablet.jpg 1x,
-              ../img/rent-tablet@2x.jpg 2x
-              " type="image/jpg">
-            <source media="(max-width: 767px)" srcset="
-              ../img/rent-mobile.jpg 1x,
-              ../img/rent-mobile@2x.jpg 2x
-              " type="img/jpg">
-            <img src="../img/rent-mobile.jpg" alt="yacht" loading="lazy">
-        </picture>
+    <form class="rent-form">
+      <input
+        class="rent-form-input"
+        type="text"
+        name="user-name"
+        id="user-name"
+        required
+        pattern="[a-zA-Zа-яА-ЯІіЇїєЄҐґйЙ']+"
+        title="Nataliia Yareshko"
+        placeholder="Full Name"
+      />
 
-    </div>
+      <input
+        class="rent-form-input"
+        type="email"
+        name="user_email"
+        id="user-email"
+        required
+        placeholder="Email"
+      />
 
-    <div class="rent-form-wrapper">
+      <input
+        class="rent-form-input"
+        type="tel"
+        name="user_telephone"
+        id="user-telephone"
+        required
+        placeholder="Phone number"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        title="xxx-xxx-xx-xx"
+      />
 
-        <h2 class="rent-title">Rent a yacht now</h2>
+      <textarea
+        class="rent-form-textarea"
+        id="user-comment"
+        name="user-comment"
+        placeholder="Comment"
+      ></textarea>
 
-        <form class="rent-form">
-
-            <input class="rent-form-input" type="text" name="user-name" id="user-name" required
-                pattern="[a-zA-Zа-яА-ЯІіЇїєЄҐґйЙ']+" title="Nataliia Yareshko" placeholder="Full Name">
-
-            <input class="rent-form-input" type="email" name="user_email" id="user-email" required placeholder="Email">
-
-            <input class="rent-form-input" type="tel" name="user_telephone" id="user-telephone" required
-                placeholder="Phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
-
-            <textarea class="rent-form-textarea" id="user-comment" name="user-comment" placeholder="Comment"></textarea>
-
-            <button class="rent-button" type="submit">Send</button>
-        </form>
-    </div>
-
+      <button class="rent-button" type="submit">Send</button>
+    </form>
+  </div>
 </section>
