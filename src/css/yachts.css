@@ -1,6 +1,6 @@
 .yachts-main-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 189px;
+  padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -19,8 +19,8 @@
 
 @media screen and (min-width: 768px) {
   .yachts-main-section {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 401px;
+    padding-bottom: 150px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -111,19 +111,15 @@
   }
 }
 
-
 .yachts-picture-item {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
   border-radius: 24px;
-
 }
 
 .yachts-description {
   padding: 32px;
-
-
 }
 
 .yachts-description-head {
@@ -143,9 +139,6 @@
   background-color: #040306;
   opacity: 40%;
   width: 100%;
-
-
-
 }
 
 .yachts-name {
@@ -165,7 +158,6 @@
   white-space: nowrap;
   max-width: 147px;
 }
-
 
 .yachts-type-class {
   font-size: 12px;

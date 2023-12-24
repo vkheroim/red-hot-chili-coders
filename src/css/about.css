@@ -1,25 +1,3 @@
-.section-aboutus {
-  padding-top: 243px;
-}
-
-@media screen and (min-width: 768px) {
-  .section-aboutus {
-    padding-top: 215px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .section-aboutus {
-    padding-top: 180px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .section-aboutus {
-    padding-top: 180px;
-  }
-}
-
 .container-aboutus {
   display: flex;
   width: 335px;

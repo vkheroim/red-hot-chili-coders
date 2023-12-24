@@ -71,7 +71,8 @@
 /**-----------------TABLET HERO-------------------*/
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 200px 32px 215px 32px;
+    padding-top: 200px;
+    padding-bottom: 215px;
   }
 
   .header-hero-bg {
