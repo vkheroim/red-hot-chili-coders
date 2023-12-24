@@ -205,10 +205,11 @@
   font-weight: 500;
   line-height: 1.26;
   letter-spacing: -0.02em;
-  cursor: pointer;
-  display: block;
-  min-width: 141px;
+  width: 141px;
   height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #fbfbfb59;
   border-radius: 15px;
   margin: 0 auto;
