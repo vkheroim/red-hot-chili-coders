@@ -87,6 +87,11 @@
   color: #fbfbfb66;
   letter-spacing: 0.03em;
 }
+.mobile-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 /*============= TABLET =================*/
 @media screen and (min-width: 768px) {
@@ -104,6 +109,7 @@
   .footer-logo {
     font-size: 20px;
     letter-spacing: -0.03em;
+    margin-right: 106px;
   }
 
   .icon-footer {
@@ -127,6 +133,7 @@
     font-size: 14px;
     line-height: 1.18;
   }
+  
 }
 
 /*============= /TABLET ================*/
@@ -143,18 +150,20 @@
   }
 
   .menu-footer {
-    margin-right: 311px;
+    margin: 0;
   }
 
   .part-footer {
     margin-right: 0;
-    margin-bottom: 96px;
   }
 
   .text-footer {
     max-width: 693px;
     margin-right: auto;
     margin-left: auto;
+  }
+  .footer-logo {
+    margin-right: 306px;
   }
 }
 
@@ -172,7 +181,7 @@
     padding-right: 75px;
   }
   .menu-footer {
-    margin-right: 388px;
+    margin-right: 0;
   }
 
   .text-footer {
@@ -180,5 +189,13 @@
     margin-right: auto;
     margin-left: auto;
   }
+.part-footer {
+  margin: 0px;
 }
+.footer-logo {
+  margin-right: 409px;
+}
+}
+
+
 /*========== /DESKTOP 1440px ===========*/
