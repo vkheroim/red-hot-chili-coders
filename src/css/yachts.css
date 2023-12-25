@@ -1,5 +1,4 @@
 .yachts-main-section {
-  padding-top: 189px;
   padding-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px;
@@ -19,7 +18,6 @@
 
 @media screen and (min-width: 768px) {
   .yachts-main-section {
-    padding-top: 401px;
     padding-bottom: 150px;
     padding-left: 32px;
     padding-right: 32px;

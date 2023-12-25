@@ -129,6 +129,10 @@
   max-width: 472px;
 }
 
+.rent-form-wrapper {
+  width: 472px;
+}
+
 .rent-form-textarea {
   margin-bottom: 50px;
 }

@@ -1,3 +1,7 @@
+.section-aboutus {
+  padding-bottom: 189px;
+}
+
 .container-aboutus {
   display: flex;
   width: 335px;
@@ -19,6 +23,10 @@
   .container-aboutus {
     padding: 50px 136px 244px 32px;
     width: 704px;
+  }
+
+  .section-aboutus {
+    padding-bottom: 440px;
   }
 }
 
@@ -49,7 +57,6 @@
   line-height: 1;
   letter-spacing: -0.02em;
   margin-bottom: 40px;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -84,7 +91,6 @@
   line-height: 100%;
   letter-spacing: -0.02em;
   margin-bottom: 20px;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -123,7 +129,6 @@
     font-size: 13px;
     line-height: 115%;
     width: 385px;
-  
   }
 }
 
