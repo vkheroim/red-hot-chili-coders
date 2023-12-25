@@ -20,9 +20,9 @@
 
     openMenuBtn.addEventListener("click", toggleMenu);
   closeMenuBtn.addEventListener("click", toggleMenu);
-  // closeMenuLink1.addEventListener("click", toggleMenu);
-  // closeMenuLink2.addEventListener("click", toggleMenu);
-  // closeMenuLink3.addEventListener("click", toggleMenu);
+  closeMenuLink1.addEventListener("click", toggleMenu);
+  closeMenuLink2.addEventListener("click", toggleMenu);
+  closeMenuLink3.addEventListener("click", toggleMenu);
   
 
 
