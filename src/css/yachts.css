@@ -16,6 +16,12 @@
   color: #fbfbfb;
 }
 
+.yachts-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
 @media screen and (min-width: 768px) {
   .yachts-main-section {
     padding-bottom: 150px;
@@ -58,12 +64,11 @@
   .container {
     max-width: 1440px;
   }
-}
 
-.yachts-list {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
+  .yachts-list {
+    justify-content: center;
+    gap: 32px;
+  }
 }
 
 @media screen and (min-width: 768px) {

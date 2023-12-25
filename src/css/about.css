@@ -38,6 +38,10 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
+
+  .section-aboutus {
+    padding-bottom: 320px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
