@@ -99,6 +99,12 @@
   letter-spacing: -0.02em;
 }
 
+.rent-button:hover,
+.rent-button:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+
 @media screen and (min-width: 768px) {
   .rent-section {
     padding-top: 150px;
@@ -111,25 +117,25 @@
   .rent-image {
     width: 704px;
   }
+}
 
-  .rent-title {
-    font-size: 48px;
-    letter-spacing: -0.02em;
-    margin-bottom: 50px;
-  }
+.rent-title {
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  margin-bottom: 50px;
+}
 
-  .rent-form {
-    max-width: 472px;
-  }
+.rent-form {
+  max-width: 472px;
+}
 
-  .rent-form-textarea {
-    margin-bottom: 50px;
-  }
-  .rent-button {
-    font-size: 18px;
-    padding: 18px 75px;
-    line-height: 110%;
-  }
+.rent-form-textarea {
+  margin-bottom: 50px;
+}
+.rent-button {
+  font-size: 18px;
+  padding: 18px 75px;
+  line-height: 110%;
 }
 
 @media screen and (min-width: 1280px) {
