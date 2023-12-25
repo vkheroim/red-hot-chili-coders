@@ -26,64 +26,180 @@
     />
     
     <script type="module" crossorigin src="/red-hot-chili-coders/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/red-hot-chili-coders/assets/index-045e30d0.css">
+    <link rel="stylesheet" href="/red-hot-chili-coders/assets/index-d61f43af.css">
   </head>
 
   <body>
     <div class="header-hero-bg">
-      <header class="page-header">
-  <div class="container">
-    <div class="page-header-container">
+      
+<header class="page-header container">
+  <div class="page-header-container">
+    <a href="../index.html" class="logo">yachtjet</a>
+    <nav class="page-nav">
+      <a href="#anchor-about" class="nav-header-button btn-about">About</a>
+      <a href="#anchor-yachts" class="nav-header-button">Yachts</a>
+      <a href="#anchor-reviews" class="nav-header-button">Reviews</a>
+    </nav>
+    <button  type="button"
+      class="mob-menu-open js-open-menu">
+      <svg class="icon-burger" width="28" height="28">
+        <use href="../img/sprite.svg#icon-menu-burger"></use>
+      </svg>
+    </button>
+
+    <ul class="social-link-list">
+      <a
+        class="social-link"
+        href="https://www.instagram.com/goitclub/"
+        target="_blank"
+      >
+        <svg class="social-page-icon" width="24" height="24">
+          <use href="../img/sprite.svg#icon-instagram"></use>
+        </svg>
+      </a>
+      <a
+        class="social-link"
+        href="https://www.youtube.com/c/GoIT"
+        target="_blank"
+      >
+        <svg class="social-page-icon" width="24" height="24">
+          <use href="../img/sprite.svg#icon-youtube"></use>
+        </svg>
+      </a>
+      <a
+        class="social-link"
+        href="https://www.facebook.com/goITclub/"
+        target="_blank"
+      >
+        <svg class="social-page-icon" width="24" height="24">
+          <use href="../img/sprite.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </ul>
+  </div>
+</header>
+
+
+    <!-- MOBILE MENU -->
+    <div class="container">
+  <div class="mobile-menu-backdrop js-menu-container active"></div>
+  <div class="mobile-menu mobile-page-header-container">
+    <ul class="logo-menu-mobile">
+      <a href="./index.html" class="mobil-menu-logo">
+        <p class="menu-title">yachtjet</p>
+      </a>
+      <button
+        type="button"
+        class="close-button menu-close-button js-close-menu"
+        aria-label="Close Menu"
+      >
+        <svg class="close-button-icon" width="12" height="12">
+          <use href="/red-hot-chili-coders/assets/sprite-0eb23db8.svg#icon-close-sharp"></use>
+        </svg>
+      </button>
+    </ul>
+    <ul class="mobile-menu-body">
+      <li>
+        <a class="js-close-menu-link js-close-menu-link-1" href="#anchor-about"
+          >ABOUT</a
+        >
+      </li>
+      <li>
+        <a class="js-close-menu-link js-close-menu-link-2" href="#anchor-yachts"
+          >YACHTS</a
+        >
+      </li>
+      <li>
+        <a
+          class="js-close-menu-link js-close-menu-link-3"
+          href="#anchor-reviews"
+          >REVIEWS</a
+        >
+      </li>
+    </ul>
+
+    <ul class="social-link-list-mob">
+      <a
+        class="social-link"
+        href="https://www.instagram.com/goitclub/"
+        target="_blank"
+      >
+        <svg class="social-page-icon" width="24" height="24">
+          <use href="../img/sprite.svg#icon-instagram"></use>
+        </svg>
+      </a>
+      <a
+        class="social-link"
+        href="https://www.youtube.com/c/GoIT"
+        target="_blank"
+      >
+        <svg class="social-page-icon" width="24" height="24">
+          <use href="../img/sprite.svg#icon-youtube"></use>
+        </svg>
+      </a>
+      <a
+        class="social-link"
+        href="https://www.facebook.com/goITclub/"
+        target="_blank"
+      >
+        <svg class="social-page-icon" width="24" height="24">
+          <use href="../img/sprite.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </ul>
+  </div>
+</div>
+<script src="./js/mobile-menu.js" defer></script>
+
+<!-- <div class="page-header-container">
       <a href="../index.html" class="logo">yachtjet</a>
       <nav class="page-nav">
         <a href="#anchor-about" class="nav-header-button btn-about">About</a>
-        <a href="#section-yachts" class="nav-header-button">Yachts</a>
+        <a href="#anchor-yachts" class="nav-header-button">Yachts</a>
         <a href="#anchor-reviews" class="nav-header-button">Reviews</a>
       </nav>
-      <button class="icon-burger-btn" type="button">
-        <svg class="icon-burger" width="28" height="28">
-          <use href="../img/sprite.svg#icon-menu-burger"></use>
-        </svg>
-      </button>
-
+      <button
+      type="button"
+      class="close-button menu-close-button js-close-menu"
+      aria-label="Close Menu"
+    >
+      <svg class="close-button-icon" width="12" height="12">
+        <use href="/img/sprite.svg#icon-close-sharp"></use>
+      </svg>
+    </button>
+  
       <ul class="social-link-list">
-        <li>
-          <a
-            class="social-link"
-            href="https://www.instagram.com/goitclub/"
-            target="_blank"
-          >
-            <svg class="social-page-icon" width="24" height="24">
-              <use href="../img/sprite.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a
-            class="social-link"
-            href="https://www.youtube.com/c/GoIT"
-            target="_blank"
-          >
-            <svg class="social-page-icon" width="24" height="24">
-              <use href="../img/sprite.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a
-            class="social-link"
-            href="https://www.facebook.com/goITclub/"
-            target="_blank"
-          >
-            <svg class="social-page-icon" width="24" height="24">
-              <use href="../img/sprite.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
+        <a
+          class="social-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+        >
+          <svg class="social-page-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+        <a
+          class="social-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+        >
+          <svg class="social-page-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-youtube"></use>
+          </svg>
+        </a>
+        <a
+          class="social-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+        >
+          <svg class="social-page-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-facebook"></use>
+          </svg>
+        </a>
       </ul>
     </div>
-  </div>
-</header>
+  <script src="./js/mobile-menu.js" defer></script>
+   -->
 
       <section class="hero">
   <div class="container">
