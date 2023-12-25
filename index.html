@@ -5,7 +5,6 @@
     <link rel="icon" type="image/svg+xml" href="/red-hot-chili-coders/assets/favicon-83fb96ea.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
     <title>yachtjet</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,7 +26,7 @@
     />
     
     <script type="module" crossorigin src="/red-hot-chili-coders/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/red-hot-chili-coders/assets/index-76b7e65d.css">
+    <link rel="stylesheet" href="/red-hot-chili-coders/assets/index-3d289ea3.css">
   </head>
 
   <body>
@@ -37,7 +36,7 @@
     <a href="../index.html" class="logo">yachtjet</a>
     <nav class="page-nav">
       <a href="#anchor-about" class="nav-header-button btn-about">About</a>
-      <a href="#anchor-yachts" class="nav-header-button">Yachts</a>
+      <a href="#section-yachts" class="nav-header-button">Yachts</a>
       <a href="#anchor-reviews" class="nav-header-button">Reviews</a>
     </nav>
     <button class="icon-burger-btn" type="button">
@@ -77,54 +76,6 @@
     </ul>
   </div>
 </header>
-<!-- <div class="backdrop is-hidden">
-  <div class="modal">
-    <div class="mobile-header-container">
-      <a href="../index.html" class="mobile-logo">yachtjet</a>
-      <button class="modal-close-btn" type="button">
-        <svg class="modal-close-icon" width="28" height="28">
-          <use href="../img/sprite.svg#icon-close-sharp"></use>
-        </svg>
-      </button>
-    </div>
-    <nav class="modal-page-nav">
-      <a href="#anchor-about" class="modal-nav-header-button btn-about"
-        >About</a
-      >
-      <a href="#anchor-yachts" class="modal-nav-header-button">Yachts</a>
-      <a href="#anchor-reviews" class="modal-nav-header-button">Reviews</a>
-    </nav>
-    <ul class="modal-social-link-list">
-      <a
-        class="modal-social-link"
-        href="https://www.instagram.com/goitclub/"
-        target="_blank"
-      >
-        <svg class="modal-social-page-icon" width="24" height="24">
-          <use href="../img/sprite.svg#icon-instagram"></use>
-        </svg>
-      </a>
-      <a
-        class="modal-social-link"
-        href="https://www.youtube.com/c/GoIT"
-        target="_blank"
-      >
-        <svg class="modal-social-page-icon" width="24" height="24">
-          <use href="../img/sprite.svg#icon-youtube"></use>
-        </svg>
-      </a>
-      <a
-        class="modal-social-link"
-        href="https://www.facebook.com/goITclub/"
-        target="_blank"
-      >
-        <svg class="modal-social-page-icon" width="24" height="24">
-          <use href="../img/sprite.svg#icon-facebook"></use>
-        </svg>
-      </a>
-    </ul>
-  </div>
-</div> -->
 
       <section class="hero">
   <div class="container">
@@ -144,57 +95,60 @@
 
     <main>
       <section class="section-aboutus" id="anchor-about">
-  <div class="container-aboutus">
-    <h2 class="aboutus-name">
-      YachtJet fleet is here to take you on the ultimate adventure
-    </h2>
-    <div class="paragraph-container">
-      <p class="aboutus-paragraph">
-        From spacious decks to state-of-the-art technology, our yachts are
-        designed to provide the perfect blend of luxury and functionality.
-      </p>
-      <p class="aboutus-second-paragraph">
-        Take a look at our selection below and choose the yacht that matches
-        your needs and preferences.No matter which yacht you choose, our
-        experienced crew will ensure that your journey is smooth and enjoyable.
-        Book now and get ready for an unforgettable adventure on the high seas.
-      </p>
+  <div class="container">
+    <div class="container-aboutus">
+      <h2 class="aboutus-name">
+        YachtJet fleet is here to take you on the ultimate adventure
+      </h2>
+      <div class="paragraph-container">
+        <p class="aboutus-paragraph">
+          From spacious decks to state-of-the-art technology, our yachts are
+          designed to provide the perfect blend of luxury and functionality.
+        </p>
+        <p class="aboutus-second-paragraph">
+          Take a look at our selection below and choose the yacht that matches
+          your needs and preferences.No matter which yacht you choose, our
+          experienced crew will ensure that your journey is smooth and
+          enjoyable. Book now and get ready for an unforgettable adventure on
+          the high seas.
+        </p>
+      </div>
+      <picture>
+        <source
+          srcset="
+            ../img/about/about-us-des-m1.jpg  1x,
+            ../img/about/about-us-des-m@2.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ../img/about/about-us-des1.jpg  1x,
+            ../img/about/about-us-des@2.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ../img/about/about-us-tab1.jpg  1x,
+            ../img/about/about-us-tab@2.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../img/about/about-us-mob1.jpg  1x,
+            ../img/about/about-us-mob@2.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="../img/about-us-mob.jpg"
+          alt="YachtJet fleet"
+          class="photo-aboutus"
+        />
+      </picture>
     </div>
-    <picture>
-      <source
-        srcset="
-          ../img/about/about-us-des-m1.jpg  1x,
-          ../img/about/about-us-des-m@2.jpg 2x
-        "
-        media="(min-width: 1440px)"
-      />
-      <source
-        srcset="
-          ../img/about/about-us-des1.jpg  1x,
-          ../img/about/about-us-des@2.jpg 2x
-        "
-        media="(min-width: 1280px)"
-      />
-      <source
-        srcset="
-          ../img/about/about-us-tab1.jpg  1x,
-          ../img/about/about-us-tab@2.jpg 2x
-        "
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="
-          ../img/about/about-us-mob1.jpg  1x,
-          ../img/about/about-us-mob@2.jpg 2x
-        "
-        media="(max-width: 767px)"
-      />
-      <img
-        src="../img/about-us-mob.jpg"
-        alt="YachtJet fleet"
-        class="photo-aboutus"
-      />
-    </picture>
   </div>
 </section>
 
@@ -326,89 +280,90 @@
   </div>
 </section>
 
-      <section class="advantages container">
-  <div class="advantages-container">
-    <h2 class="visually-hidden">Advantages</h2>
-    <ol class="advantages-list list">
-  <li class="advantages-list-item"> 
-        <div class="under-text-advantages">
-          <p class="advantages-description current">  
-          Swimming and water sports: try your hand at water skiing
-        </p>
+      <section>
+  <div class="advantages container">
+    <div class="advantages-container">
+      <h2 class="visually-hidden">Advantages</h2>
+      <ol class="advantages-list list">
+        <li class="advantages-list-item">
+          <div class="under-text-advantages">
+            <p class="advantages-description current">
+              Swimming and water sports: try your hand at water skiing
+            </p>
+          </div>
+        </li>
+        <li class="advantages-list-item">
+          <div class="under-text-advantages">
+            <p class="advantages-description">
+              Fishing: try to catch your own dinner
+            </p>
+          </div>
+        </li>
+
+        <li class="advantages-list-item">
+          <div class="under-text-advantages">
+            <p class="advantages-description">
+              Sightseeing tours: take a shore or island tour, enjoy the views
+              and sunsets from the water
+            </p>
+          </div>
+        </li>
+        <li class="advantages-list-item">
+          <div class="under-text-advantages">
+            <p class="advantages-description">
+              Rest and relaxation: read a book or listen to music while enjoying
+              the outdoor atmosphere.
+            </p>
+          </div>
+        </li>
+      </ol>
     </div>
-    </li>
-      <li class="advantages-list-item"> 
-      <div class="under-text-advantages">
-        <p class="advantages-description">
-          Fishing: try to catch your own dinner
-        </p>
+
+    <div class="advantages-photo">
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ../img/advantages-img/adv-pc2.jpg    1x,
+            ../img/advantages-img/adv-pc2@2x.jpg 2x
+          "
+          alt="photo of yacht"
+        />
+
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/advantages-img/adv-pc.jpg    1x,
+            ../img/advantages-img/adv-pc@2x.jpg 2x
+          "
+          alt="photo of yacht"
+        />
+        <source
+          media="(min-width:768px)"
+          type="image/jpg"
+          srcset="
+            ../img/advantages-img/adv-tablet.jpg    1x,
+            ../img/advantages-img/adv-tablet@2x.jpg 2x
+          "
+        />
+
+        <source
+          media="(max-width:767px)"
+          type="image/jpg"
+          srcset="
+            ../img/advantages-img/adv-mobile.jpg    1x,
+            ../img/advantages-img/adv-mobile@2x.jpg 2x
+          "
+        />
+
+        <img
+          src="../img/advantages-img/adv-mobile.jpg"
+          alt="photo of yacht"
+          width="335"
+          height="424"
+        />
+      </picture>
     </div>
-      </li>
-
-      <li class="advantages-list-item">
-      <div class="under-text-advantages">
-        <p class="advantages-description">
-          Sightseeing tours: take a shore or island tour, enjoy the views and
-          sunsets from the water
-        </p>
-      </div>
-      </li>
-      <li class="advantages-list-item">
-      <div class="under-text-advantages">
-        <p class="advantages-description">
-          Rest and relaxation: read a book or listen to music while enjoying the
-          outdoor atmosphere.
-        </p>
-      </div>
-      </li>
-    </ol>
-      </div>
-   
-  
-  <div class="advantages-photo">
-    <picture>
-      <source
-        media="(min-width: 1440px)"
-        srcset="
-          ../img/advantages-img/adv-pc2.jpg    1x,
-          ../img/advantages-img/adv-pc2@2x.jpg 2x
-        "
-        alt="photo of yacht"
-      />
-
-      <source
-        media="(min-width: 1280px)"
-        srcset="
-          ../img/advantages-img/adv-pc.jpg    1x,
-          ../img/advantages-img/adv-pc@2x.jpg 2x
-        "
-        alt="photo of yacht"
-      />
-      <source
-        media="(min-width:768px)"
-        type="image/jpg"
-        srcset="
-          ../img/advantages-img/adv-tablet.jpg    1x,
-          ../img/advantages-img/adv-tablet@2x.jpg 2x
-        "
-      />
-
-      <source
-        media="(max-width:767px)"
-        type="image/jpg"
-        srcset="
-          ../img/advantages-img/adv-mobile.jpg    1x,
-          ../img/advantages-img/adv-mobile@2x.jpg 2x
-        "
-      />
-
-      <img
-        src="../img/advantages-img/adv-mobile.jpg"
-        alt="photo of yacht"
-        width="335"
-        height="424"
-      />
-    </picture>
   </div>
 </section>
 
@@ -549,75 +504,71 @@
 
     </main>
 
-    
-
-<footer class="container">
-  <div class="container-footer">
+    <footer>
+  <div class="container-footer container">
     <div class="part-footer-nav">
-<div class="mobile-footer">
-    <a class="footer-logo" href="../index.html">yachtjet</a>
+      <div class="mobile-footer">
+        <a class="footer-logo" href="../index.html">yachtjet</a>
 
-     <nav class="part-footer">
-       <ul class="menu-footer">
-         <li class="menu-footer-item">
-           <a class="link-menu-footer" href="#anchor-about">About</a>
-         </li>
-         <li class="menu-footer-item">
-           <a class="link-menu-footer" href="#anchor-rent">Yachts</a>
-         </li>
-         <li class="menu-footer-item">
-           <a class="link-menu-footer" href="#anchor-reviews">Reviews</a>
-         </li>
-       </ul>
-     </nav>
-  </div>
-        <ul class="icon-footer">
-          <li class="list-icon-footer">
-             <a
-              class="link-icon"
-             href="https://www.instagram.com/goitclub/"
-             target="_blank"
-            >
-             <svg class="social-link-icon" width="24" height="24">
-               <use href="/red-hot-chili-coders/assets/sprite-0eb23db8.svg#icon-instagram"></use>
-             </svg>
-           </a>
-         </li>
-         <li class="list-icon-footer">
-           <a
-             class="link-icon"
-             href="https://www.youtube.com/c/GoIT "
-             target="_blank"
-           >
-             <svg class="social-link-icon" width="24" height="24">
-               <use href="/red-hot-chili-coders/assets/sprite-0eb23db8.svg#icon-youtube"></use>
-              </svg>
-           </a>
-          </li>
-          <li class="list-icon-footer">
-            <a
-             class="link-icon"
-             href="https://www.facebook.com/goITclub/"
-              target="_blank"
-            >
-             <svg class="social-link-icon" width="24" height="24">
+        <nav class="part-footer">
+          <ul class="menu-footer">
+            <li class="menu-footer-item">
+              <a class="link-menu-footer" href="#anchor-about">About</a>
+            </li>
+            <li class="menu-footer-item">
+              <a class="link-menu-footer" href="#section-yachts">Yachts</a>
+            </li>
+            <li class="menu-footer-item">
+              <a class="link-menu-footer" href="#anchor-reviews">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <ul class="icon-footer">
+        <li class="list-icon-footer">
+          <a
+            class="link-icon"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+          >
+            <svg class="social-link-icon" width="24" height="24">
+              <use href="/red-hot-chili-coders/assets/sprite-0eb23db8.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="list-icon-footer">
+          <a
+            class="link-icon"
+            href="https://www.youtube.com/c/GoIT "
+            target="_blank"
+          >
+            <svg class="social-link-icon" width="24" height="24">
+              <use href="/red-hot-chili-coders/assets/sprite-0eb23db8.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="list-icon-footer">
+          <a
+            class="link-icon"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+          >
+            <svg class="social-link-icon" width="24" height="24">
               <use href="/red-hot-chili-coders/assets/sprite-0eb23db8.svg#icon-facebook"></use>
-             </svg>
-            </a>
-         </li>
-        </ul>
-      </div>
-      <p class="text-footer">
-        No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable.
-      </p>
-      <div class="text-footer-bottom">
-        <p>2023. Yacht Adventures</p>
-        <a href="./index.html">Privacy Police</a>
-      </div>
-    </nav>
-
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
-
+    <p class="text-footer">
+      No matter which yacht you choose, our experienced crew will ensure that
+      your journey is smooth and enjoyable.
+    </p>
+    <div class="text-footer-bottom">
+      <p>2023. Yacht Adventures</p>
+      <a href="./index.html">Privacy Police</a>
+    </div>
+  </div>
 </footer>
 
 
