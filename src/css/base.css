@@ -1,5 +1,9 @@
 /* ================ GENERAL RULES ================= */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: #0e1823;

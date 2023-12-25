@@ -99,6 +99,12 @@
   letter-spacing: -0.02em;
 }
 
+.rent-button:hover,
+.rent-button:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+
 @media screen and (min-width: 768px) {
   .rent-section {
     padding-top: 150px;
@@ -122,6 +128,9 @@
     max-width: 472px;
   }
 
+  .rent-form-wrapper {
+    width: 472px;
+  }
   .rent-form-textarea {
     margin-bottom: 50px;
   }
@@ -129,6 +138,13 @@
     font-size: 18px;
     padding: 18px 75px;
     line-height: 110%;
+  }
+
+  .rent-form-input {
+    height: 54px;
+  }
+  .rent-form-textarea {
+    height: 116px;
   }
 }
 
@@ -139,7 +155,7 @@
     padding-left: 50px;
     gap: 50px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .rent-title {
@@ -155,5 +171,9 @@
     font-size: 18px;
     padding: 18px 75px;
     line-height: 110%;
+  }
+
+  .rent-form-input {
+    height: 50px;
   }
 }

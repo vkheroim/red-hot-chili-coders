@@ -1,3 +1,7 @@
+.section-aboutus {
+  padding-bottom: 189px;
+}
+
 .container-aboutus {
   display: flex;
   width: 335px;
@@ -20,6 +24,10 @@
     padding: 50px 136px 244px 32px;
     width: 704px;
   }
+
+  .section-aboutus {
+    padding-bottom: 440px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -29,6 +37,10 @@
     justify-content: center;
     align-items: flex-start;
     flex-shrink: 0;
+  }
+
+  .section-aboutus {
+    padding-bottom: 320px;
   }
 }
 
@@ -48,21 +60,22 @@
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
-  padding-bottom: 40px;
-  margin: 0;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .aboutus-name {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .aboutus-name {
+    width: 537px;
     font-size: 48px;
     margin-right: 189px;
+    margin-bottom: 0;
     padding: 0;
   }
 }
@@ -81,8 +94,7 @@
   font-weight: 400;
   line-height: 100%;
   letter-spacing: -0.02em;
-  padding-bottom: 20px;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -113,7 +125,6 @@
   line-height: 1.16;
   letter-spacing: -0.02em;
   opacity: 0.4;
-  padding-bottom: 40px;
   margin: 0;
 }
 
@@ -122,7 +133,6 @@
     font-size: 13px;
     line-height: 115%;
     width: 385px;
-    padding-bottom: 50px;
   }
 }
 
