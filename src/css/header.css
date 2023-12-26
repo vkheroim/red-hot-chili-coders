@@ -1,12 +1,13 @@
 .page-header-container {
   border: 1px solid #fbfbfb;
   background: #fbfbfb;
-  padding: 12px 20px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-radius: 8px;
   border: 1px solid #fbfbfb;
+  height: 44px;
 }
 
 .social-link {
@@ -97,8 +98,21 @@
   .icon-burger {
     stroke: #1b414b;
   }
+  .mob-menu-open {
+    background-color: transparent;
+    border: none;
+  }
+}
+@media screen and (min-width: 375px) {
+  /* .mob-menu-open {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  } */
 }
 @media screen and (min-width: 768px) {
+  .mob-menu-open {
+    display: none;
+  }
   .backdrop {
     display: none;
   }
