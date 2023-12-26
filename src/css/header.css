@@ -136,9 +136,9 @@
     display: flex;
     gap: 4px;
   }
-  .btn-about {
+  /* .btn-about {
     background-color: var(--active-color);
-  }
+  } */
 }
 @media screen and (min-width: 1280px) {
   .page-header-container {

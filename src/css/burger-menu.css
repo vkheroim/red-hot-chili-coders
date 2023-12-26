@@ -152,9 +152,9 @@
 .mobile-menu-body a:hover {
   background-color: #1b414b;
 }
-.js-close-menu-link-1 {
+/* .js-close-menu-link-1 {
   background-color: #1b414b;
-}
+} */
 /* Media query */
 @media (max-width: 768px) {
   .mobile-menu-body {
