@@ -2,9 +2,10 @@
     const mobileMenu = document.querySelector(".js-menu-container");
     const openMenuBtn = document.querySelector(".js-open-menu");
   const closeMenuBtn = document.querySelector(".js-close-menu");
-  const closeMenuLink1 = document.querySelector(".js-close-menu-link1");
-  const closeMenuLink2 = document.querySelector(".js-close-menu-link2");
-  const closeMenuLink3 = document.querySelector(".js-close-menu-link3");
+  // const closeMenuLink1 = document.querySelector(".js-close-menu-link1");
+  // const closeMenuLink2 = document.querySelector(".js-close-menu-link2");
+  // const closeMenuLink3 = document.querySelector(".js-close-menu-link3");
+  const closeMenuLink = document.querySelectorAll('.js-close-menu-link');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -19,10 +20,11 @@
   };
 
     openMenuBtn.addEventListener("click", toggleMenu);
-  closeMenuBtn.addEventListener("click", toggleMenu);
-  closeMenuLink1.addEventListener("click", toggleMenu);
-  closeMenuLink2.addEventListener("click", toggleMenu);
-  closeMenuLink3.addEventListener("click", toggleMenu);
+  // closeMenuBtn.addEventListener("click", toggleMenu);
+  // closeMenuLink1.addEventListener("click", toggleMenu);
+  // closeMenuLink2.addEventListener("click", toggleMenu);
+  // closeMenuLink3.addEventListener("click", toggleMenu);
+  closeMenuLink.forEach(item => item.addEventListener('click', toggleMenu));
   
 
 
