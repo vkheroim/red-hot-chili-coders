@@ -4,7 +4,6 @@
 
 .container-aboutus {
   display: flex;
-  width: 335px;
   padding: 40px 20px 335px 20px;
   align-items: flex-start;
   border-radius: 24px;

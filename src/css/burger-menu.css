@@ -60,7 +60,6 @@
   fill: var(#FBFBFBCC);
 } */
 
-
 .social-link-mobile-menu {
   fill: #fbfbfb;
 }
@@ -141,7 +140,7 @@
   border-radius: 8px;
   border: 1px solid #fbfbfb;
   width: 100%;
-  height: 50px;
+  height: 48px;
 }
 
 .mobil-menu-icon {
@@ -191,7 +190,11 @@
 }
 
 .mobile-menu-body a:hover {
-  background-color: #1B414B;
+  background-color: #1b414b;
+}
+
+.js-close-menu-link-1 {
+  background-color: #1b414b;
 }
 
 /* Media query */
